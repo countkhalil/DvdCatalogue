@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: dvd_catalogue
+      password: dvd_catalogue
+      url: jdbc:mysql://localhost:3306/dvd_catalogue
+      
+   jpa:
+      hibernate:
+         ddl_auto: update
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: always
